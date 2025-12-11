@@ -26,3 +26,7 @@ class Embedder:
         """Generate embedding for a single query."""
         embedding = self.model.encode([query], convert_to_numpy=True)
         return embedding
+    
+    def encode(self, texts: List[str]) -> np.ndarray:
+        """Alias for embed() to match example API."""
+        return self.embed(texts)
