@@ -1,0 +1,3 @@
+# Core dependencies
+# Add packages as needed during development
+
