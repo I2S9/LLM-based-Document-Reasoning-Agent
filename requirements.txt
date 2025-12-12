@@ -5,6 +5,11 @@ faiss-cpu>=1.7.4
 numpy>=1.24.0
 openai>=1.0.0
 
+# Notebook dependencies
+matplotlib>=3.7.0
+pandas>=2.0.0
+jupyter>=1.0.0
+
 # Optional: For local models
 # transformers>=4.30.0
 # torch>=2.0.0
