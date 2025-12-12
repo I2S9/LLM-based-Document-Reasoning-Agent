@@ -61,9 +61,13 @@ The system is designed to be modular, extensible, and suitable for research expe
 
 The system supports both fixed-size and semantic chunking strategies:
 
+<div align="center">
+
 ![Chunk Size Comparison](docs/images/chunk_size_comparison.png)
 
 *Comparison of fixed-size vs semantic chunking approaches*
+
+</div>
 
 ### Directory Structure
 
@@ -93,9 +97,13 @@ project-root/
 
 #### Embedding Similarity Visualization
 
+<div align="center">
+
 ![Embedding Similarity Matrix](docs/images/embedding_similarity_matrix.png)
 
 *Cosine similarity matrix showing semantic relationships between document chunks.*
+
+</div>
 
 ## Installation
 
@@ -293,21 +301,33 @@ From `experiments/results.json`:
 
 #### Benchmark Metrics Overview
 
+<div align="center">
+
 ![Benchmark Metrics](docs/images/benchmark_metrics.png)
 
 *Comprehensive metrics visualization showing latency, similarity scores, chunk relevance, and number of retrieved chunks across different queries.*
 
+</div>
+
 #### Retrieval Performance
+
+<div align="center">
 
 ![Retrieval Scores](docs/images/retrieval_scores.png)
 
 *Similarity scores for retrieved chunks, demonstrating the retrieval system's ability to find relevant document segments.*
 
+</div>
+
 #### Chunk Relevance Analysis
+
+<div align="center">
 
 ![Chunk Relevance by Query](docs/images/chunk_relevance_by_query.png)
 
 *Average chunk relevance scores across different query types.*
+
+</div>
 
 ### Running Custom Evaluations
 
