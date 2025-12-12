@@ -297,12 +297,6 @@ From `experiments/results.json`:
 
 *Comprehensive metrics visualization showing latency, similarity scores, chunk relevance, and number of retrieved chunks across different queries.*
 
-#### Metric Correlations
-
-![Metric Correlation Matrix](docs/images/metric_correlation_matrix.png)
-
-*Correlation analysis between different evaluation metrics.*
-
 #### Retrieval Performance
 
 ![Retrieval Scores](docs/images/retrieval_scores.png)
