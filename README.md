@@ -57,6 +57,14 @@ The system is designed to be modular, extensible, and suitable for research expe
                           └──────────────┘
 ```
 
+### Chunking Comparison
+
+The system supports both fixed-size and semantic chunking strategies:
+
+![Chunk Size Comparison](docs/images/chunk_size_comparison.png)
+
+*Comparison of fixed-size vs semantic chunking approaches*
+
 ### Directory Structure
 
 ```
@@ -82,6 +90,12 @@ project-root/
 3. **Context Merging**: Multiple strategies for combining retrieved contexts
 4. **Enhanced Prompting**: Structured prompts with clear instructions
 5. **Multi-Model Support**: Seamless switching between OpenAI and local models
+
+#### Embedding Similarity Visualization
+
+![Embedding Similarity Matrix](docs/images/embedding_similarity_matrix.png)
+
+*Cosine similarity matrix showing semantic relationships between document chunks.*
 
 ## Installation
 
@@ -274,6 +288,32 @@ From `experiments/results.json`:
 | Local Model | TBD | TBD | TBD |
 
 *Note: Results may vary based on document complexity and query type.*
+
+### Visualizations
+
+#### Benchmark Metrics Overview
+
+![Benchmark Metrics](docs/images/benchmark_metrics.png)
+
+*Comprehensive metrics visualization showing latency, similarity scores, chunk relevance, and number of retrieved chunks across different queries.*
+
+#### Metric Correlations
+
+![Metric Correlation Matrix](docs/images/metric_correlation_matrix.png)
+
+*Correlation analysis between different evaluation metrics.*
+
+#### Retrieval Performance
+
+![Retrieval Scores](docs/images/retrieval_scores.png)
+
+*Similarity scores for retrieved chunks, demonstrating the retrieval system's ability to find relevant document segments.*
+
+#### Chunk Relevance Analysis
+
+![Chunk Relevance by Query](docs/images/chunk_relevance_by_query.png)
+
+*Average chunk relevance scores across different query types.*
 
 ### Running Custom Evaluations
 

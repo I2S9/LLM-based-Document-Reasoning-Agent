@@ -49,6 +49,9 @@ data/processed/
 experiments/logs/
 *.log
 
+# Keep visualization images
+!docs/images/*.png
+
 # Model files and caches
 *.pkl
 *.pickle
