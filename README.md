@@ -289,28 +289,6 @@ benchmark = Benchmark(agent, retriever)
 summary = benchmark.run_benchmark(test_cases)
 ```
 
-## Limitations
-
-### Current Limitations
-
-1. **PDF Processing**: Currently supports basic PDF text extraction. Complex layouts, tables, and images are not fully handled.
-
-2. **Chunking**: Semantic chunking works well for well-structured text but may struggle with highly technical or domain-specific content.
-
-3. **Retrieval**: FAISS-based retrieval is efficient but may miss relevant information if query phrasing differs significantly from document language.
-
-4. **Model Support**: Local model support requires significant computational resources (GPU recommended for large models).
-
-5. **Evaluation Metrics**: Current similarity metric (word overlap) is simple and may not capture semantic equivalence.
-
-6. **Context Window**: Limited by model context window size. Very long documents may require additional processing.
-
-### Known Issues
-
-- Semantic chunking can be slow for very large documents
-- Local model loading requires substantial memory
-- OpenAI API rate limits may affect batch processing
-
 ### Research Directions
 
 - **Multi-hop Reasoning**: Extend planner to support multi-step document traversal
