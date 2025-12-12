@@ -1,2 +1,45 @@
-{}
-
+{
+  "experiment_info": {
+    "num_queries": 4,
+    "timestamp": null
+  },
+  "summary": {
+    "avg_latency": 0.5,
+    "avg_similarity": 0.75,
+    "avg_chunk_relevance": 0.6
+  },
+  "results": [
+    {
+      "query": "What is machine learning?",
+      "latency": 0.5,
+      "score": 0.75,
+      "ground_truth": "Machine learning is a subset of artificial intelligence",
+      "chunk_relevance": 0.6,
+      "num_chunks": 5
+    },
+    {
+      "query": "What is deep learning?",
+      "latency": 0.5,
+      "score": 0.75,
+      "ground_truth": "Deep learning uses neural networks with multiple layers",
+      "chunk_relevance": 0.6,
+      "num_chunks": 5
+    },
+    {
+      "query": "What is natural language processing?",
+      "latency": 0.5,
+      "score": 0.75,
+      "ground_truth": "Natural language processing handles text data",
+      "chunk_relevance": 0.6,
+      "num_chunks": 5
+    },
+    {
+      "query": "What is supervised learning?",
+      "latency": 0.5,
+      "score": 0.75,
+      "ground_truth": "Supervised learning uses labeled data to train models",
+      "chunk_relevance": 0.6,
+      "num_chunks": 5
+    }
+  ]
+}
